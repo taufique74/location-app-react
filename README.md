@@ -1,5 +1,5 @@
 # Share your Name & Location
-Note: For some weird reason, the marker is not showing in Chrome. It works fine in firefox
+Note: For some weird reason, the marker is not showing in Chrome. <b>It works fine in firefox</b>
 
 ## Depoloyment
 This react application has been deployed to Netlify  
