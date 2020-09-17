@@ -32,7 +32,6 @@ export class MapContainer extends Component {
     if (navigator && navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(pos => {
           const coords = pos.coords;
-          console.log(coords);
           this.setState({
               currentLocation: {
                   lat: coords.latitude,
