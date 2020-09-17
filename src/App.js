@@ -32,6 +32,7 @@ export class MapContainer extends Component {
     if (navigator && navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(pos => {
           const coords = pos.coords;
+          console.log(coords);
           this.setState({
               currentLocation: {
                   lat: coords.latitude,
@@ -93,5 +94,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: process.env.REACT_APP_GOOGLEMAPS_API
+  apiKey: 'process.env.REACT_APP_GOOGLEMAPS_API'
 })(MapContainer);
